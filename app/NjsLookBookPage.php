@@ -3,13 +3,11 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Database\Eloquent\SoftDeletes;
 
-class SignatureCollectionPage extends Model
+class NjsLookBookPage extends Model
 {
-    //use SoftDeletes;
-    protected $table = "signature_collection_page";
-    protected $fillable = ['name', 'image_url'];
+    protected $table = "njslookbookpages";
+    protected $fillable = ['name', 'image_url', 'description'];
 
     public function setNameAttribute($value)
     {
@@ -18,5 +16,9 @@ class SignatureCollectionPage extends Model
     public function setImageUrlAttribute($value)
     {
         $this->attributes['image_url'] = ($value);
+    }
+    public function setDescriptionAttribute($value)
+    {
+        $this->attributes['description'] = ($value);
     }
 }

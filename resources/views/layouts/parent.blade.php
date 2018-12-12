@@ -155,7 +155,7 @@
             </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/"><i class="fa fa-circle-o text-light-blue"></i> NJ's LookBook Page</a></li>
+                        <li><a href="/njs-look-book"><i class="fa fa-circle-o text-light-blue"></i> NJ's LookBook Page</a></li>
                     </ul>
                 </li>
 

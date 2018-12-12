@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateSignatureCollectionPage extends Migration
+class CreateNjslookbookpagesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,10 @@ class CreateSignatureCollectionPage extends Migration
      */
     public function up()
     {
-        Schema::create('signature_collection_page', function (Blueprint $table) {
+        Schema::create('njslookbookpages', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->string('description',5000);
             $table->string('image_url');
             $table->timestamps();
         });
@@ -28,6 +29,6 @@ class CreateSignatureCollectionPage extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('signature_collection_page');
+        Schema::dropIfExists('njslookbookpages');
     }
 }
