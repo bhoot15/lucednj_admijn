@@ -44,3 +44,6 @@ storage/framework/views/.gitignore
 storage/logs/.gitignore
 tests/
 webpack.mix.js
+public/bower_components
+.idea/dataSources.local.xml
+.idea/dataSources/
