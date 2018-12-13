@@ -20,3 +20,4 @@ Auth::routes();
 Route::get('/', 'HomeController@home')->name('home');
 Route::resource('/signature-collection-page', 'SignatureCollectionPageController');
 Route::resource('/njs-look-book', 'NjsLookBookPageController');
+Route::resource('/about-us', 'AboutUsController');
