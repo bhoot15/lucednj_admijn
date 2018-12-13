@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateAboutUsesTable extends Migration
+class CreateWorkWithUsesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,11 +13,11 @@ class CreateAboutUsesTable extends Migration
      */
     public function up()
     {
-        Schema::create('about_us', function (Blueprint $table) {
+        Schema::create('work_with_us', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('para_1',5000);
-            $table->string('para_2',5000);
-            $table->string('image_url');
+            $table->string('content', 2500);
+            $table->string('email');
+            $table->string('message');
             $table->timestamps();
         });
     }
@@ -29,6 +29,6 @@ class CreateAboutUsesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('about_us');
+        Schema::dropIfExists('work_with_us');
     }
 }

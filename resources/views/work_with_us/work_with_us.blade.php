@@ -5,11 +5,11 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                About Us Page
+                Work With Us Page
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li class="active">About Us Page</li>
+                <li class="active">Work With Us Page</li>
             </ol>
         </section>
 
@@ -20,10 +20,10 @@
                     <div class="box">
                         <div class="box-header">
                             <div class="col-md-6">
-                                <h3 class="box-title">About Us</h3>
+                                <h3 class="box-title">Work With Us List</h3>
                             </div>
                             <div class="col-md-6">
-                                {{--<a href="/about-us/create" class="btn btn-success pull-right">create new</a>--}}
+                                {{--<a href="/work-with-us/create" class="btn btn-success pull-right">create new</a>--}}
                             </div>
                         </div>
                         <!-- /.box-header -->
@@ -31,22 +31,21 @@
                             <table class="table table-hover">
                                 <tr>
                                     <th>ID</th>
-                                    <th>Row 1</th>
-                                    <th>Row 2</th>
-                                    <th>Image</th>
+                                    <th>Content</th>
+                                    <th>Message</th>
+                                    <th>Email</th>
                                     <th>Status</th>
                                     <th>Edit</th>
                                 </tr>
                                 @foreach($scs as $sc)
                                     <tr>
                                         <td>{{$sc->id}}</td>
-                                        <td>{{$sc->para_1}}</td>
-                                        <td>{{$sc->para_2}}</td>
-                                        <td><img src="{{$sc->image_url}}" class="img-thumbnail" height="800"
-                                                 width="800"></td>
+                                        <td>{{$sc->content}}</td>
+                                        <td>{{$sc->message}}</td>
+                                        <td>{{$sc->email}}</td>
                                         <td><span class="label label-success">Active</span></td>
                                         <td>
-                                            <a href="/about-us/{{$sc->id}}/edit"><i
+                                            <a href="/work-with-us/{{$sc->id}}/edit"><i
                                                     class="fa fa-btn fa-pencil-square-o"
                                                     aria-hidden="true"></i></a>
                                         </td>
