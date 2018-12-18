@@ -8,6 +8,11 @@ use Illuminate\Support\Facades\DB;
 
 class WorkWithUsController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     public function index()
     {
         $scs = DB::table('work_with_us')
