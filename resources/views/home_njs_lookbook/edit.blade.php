@@ -19,11 +19,11 @@
                 <div class="col-xs-12">
                     <div class="box box-primary">
                         <div class="box-header">
-                            <h3 class="box-title">Edit Your Data</h3>
+                            <h3 class="box-title">Responsive Hover Table</h3>
                         </div>
                         <!-- /.box-header -->
                         <div class="container box-body table-responsive no-padding">
-                            <form action="/signature-collection-page/{{ $sc->id}}" method="POST">
+                            <form action="/home-njs-look-book/{{ $sc->id}}" method="POST">
                                 <div class="box-body">
                                     {{ method_field('PUT') }}
                                     {{ csrf_field() }}
@@ -33,9 +33,13 @@
                                         <textarea name="name" class="form-control">{{$sc->name}}</textarea>
                                     </div>
                                     <div class="form-group">
-                                        <label for="image_url">Image Url</label>
-                                        <textarea name="image_url"
-                                                  class="form-control">{{$sc->image_url}}</textarea>
+                                        <label for="description">Description</label>
+                                        <textarea rows="6" name="description" class="form-control">{{$sc->description}}</textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="large_image_url">Large Image Url</label>
+                                        <textarea name="large_image_url"
+                                                  class="form-control">{{$sc->large_image_url}}</textarea>
                                     </div>
                                     <div class="box-footer">
                                         <button type="submit" class="btn btn-success">Update</button>

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\njsLookBookPage;
+use App\NjsLookBookPage;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -32,7 +32,7 @@ class NjsLookBookPageController extends Controller
         return redirect('/njs-look-book');
     }
 
-    public function show(njsLookBookPage $njslookbookpage)
+    public function show(NjsLookBookPage $njslookbookpage)
     {
         //
     }
@@ -50,7 +50,7 @@ class NjsLookBookPageController extends Controller
         return redirect('/njs-look-book');
     }
 
-    public function destroy(njsLookBookPage $njslookbookpage)
+    public function destroy(NjsLookBookPage $njslookbookpage)
     {
         //
     }

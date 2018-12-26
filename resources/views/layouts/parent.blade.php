@@ -37,7 +37,7 @@
     <header class="main-header">
 
         <!-- Logo -->
-        <a href="index2.html" class="logo">
+        <a href="/" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
             <span class="logo-mini"><b>LNJ</b></span>
             <!-- logo for regular state and mobile devices -->
@@ -55,8 +55,9 @@
                 <ul class="nav navbar-nav">
                     <li class="dropdown user user-menu">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-                            <span class="hidden-xs">{{{ isset(Auth::user()->name) ? Auth::user()->name : Auth::user()->email }}}</span>
+                            <img src="{{ asset('dist/img/user2-160x160.jpg') }}" class="user-image" alt="User Image">
+                            <span
+                                class="hidden-xs">{{{ isset(Auth::user()->name) ? Auth::user()->name : Auth::user()->email }}}</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- User image -->
@@ -134,8 +135,10 @@
             </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/"><i class="fa fa-circle-o text-lime"></i> NJ's LookBook Home</a></li>
-                        <li class="active"><a href="/"><i class="fa fa-circle-o text-aqua"></i> Signature Collection</a>
+                        <li><a href="/home-njs-look-book"><i class="fa fa-circle-o text-lime"></i> NJ's LookBook
+                                Home</a></li>
+                        <li class="active"><a href="/signature-collection-page"><i class="fa fa-circle-o text-aqua"></i>
+                                Signature Collection</a>
                         </li>
                         <li class="active"><a href="/"><i class="fa fa-circle-o text-purple"></i> Instagram @njmisty</a>
                         </li>
@@ -155,7 +158,8 @@
             </span>
                     </a>
                     <ul class="treeview-menu">
-                        <li><a href="/njs-look-book"><i class="fa fa-circle-o text-light-blue"></i> NJ's LookBook Page</a></li>
+                        <li><a href="/njs-look-book"><i class="fa fa-circle-o text-light-blue"></i> NJ's LookBook
+                                Page</a></li>
                     </ul>
                 </li>
 
@@ -191,10 +195,10 @@
     <!-- Content Wrapper. Contains page content -->
 
 
-    @yield('content')
+@yield('content')
 
 
-    <!-- /.content-wrapper -->
+<!-- /.content-wrapper -->
 
     <footer class="main-footer">
         <div class="pull-right hidden-xs">

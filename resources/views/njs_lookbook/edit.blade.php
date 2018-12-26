@@ -9,7 +9,7 @@
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li class="active">Signature Collection Page</li>
+                <li class="active">NJs Lookbook Page</li>
             </ol>
         </section>
 
@@ -19,7 +19,7 @@
                 <div class="col-xs-12">
                     <div class="box box-primary">
                         <div class="box-header">
-                            <h3 class="box-title">Responsive Hover Table</h3>
+                            <h3 class="box-title">Edit Your Data</h3>
                         </div>
                         <!-- /.box-header -->
                         <div class="container box-body table-responsive no-padding">
