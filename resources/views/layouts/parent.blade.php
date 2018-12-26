@@ -143,7 +143,7 @@
                         <li class="active"><a href="/"><i class="fa fa-circle-o text-purple"></i> Instagram @njmisty</a>
                         </li>
                         <li class="active"><a href="/vlogs"><i class="fa fa-circle-o text-red"></i> Vlogs</a></li>
-                        <li class="active"><a href="/"><i class="fa fa-circle-o text-white"></i> Light of Fashion</a>
+                        <li class="active"><a href="/lofs"><i class="fa fa-circle-o text-white"></i> Light of Fashion</a>
                         </li>
                         <li class="active"><a href="/"><i class="fa fa-circle-o text-yellow"></i> Instagram @lucednj</a>
                         </li>
