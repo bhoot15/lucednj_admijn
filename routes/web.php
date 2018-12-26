@@ -23,3 +23,4 @@ Route::resource('/njs-look-book', 'NjsLookBookPageController');
 Route::resource('/home-njs-look-book', 'HomeNjsLookBookPageController');
 Route::resource('/about-us', 'AboutUsController');
 Route::resource('/work-with-us', 'WorkWithUsController');
+Route::resource('/vlogs', 'VlogController');

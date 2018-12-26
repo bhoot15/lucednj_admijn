@@ -5,11 +5,11 @@
         <!-- Content Header (Page header) -->
         <section class="content-header">
             <h1>
-                Signature Collection Page
+                NJs LookBook Home Page
             </h1>
             <ol class="breadcrumb">
                 <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-                <li class="active">Signature Collection Page</li>
+                <li class="active">NJs LookBook Home Page</li>
             </ol>
         </section>
 
@@ -19,7 +19,7 @@
                 <div class="col-xs-12">
                     <div class="box box-primary">
                         <div class="box-header">
-                            <h3 class="box-title">Responsive Hover Table</h3>
+                            <h3 class="box-title"></h3>
                         </div>
                         <!-- /.box-header -->
                         <div class="container box-body table-responsive no-padding">
@@ -30,15 +30,15 @@
                                     <input type="hidden" name="id" value="{{ $sc->id }}">
                                     <div class="form-group">
                                         <label for="name">Name</label>
-                                        <textarea name="name" class="form-control">{{$sc->name}}</textarea>
+                                        <textarea name="name" required class="form-control">{{$sc->name}}</textarea>
                                     </div>
                                     <div class="form-group">
                                         <label for="description">Description</label>
-                                        <textarea rows="6" name="description" class="form-control">{{$sc->description}}</textarea>
+                                        <textarea rows="6"  required name="description" class="form-control">{{$sc->description}}</textarea>
                                     </div>
                                     <div class="form-group">
                                         <label for="large_image_url">Large Image Url</label>
-                                        <textarea name="large_image_url"
+                                        <textarea name="large_image_url" required
                                                   class="form-control">{{$sc->large_image_url}}</textarea>
                                     </div>
                                     <div class="box-footer">
