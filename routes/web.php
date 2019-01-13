@@ -25,3 +25,5 @@ Route::resource('/about-us', 'AboutUsController');
 Route::resource('/work-with-us', 'WorkWithUsController');
 Route::resource('/vlogs', 'VlogController');
 Route::resource('/lofs', 'LightOfFashionController');
+Route::resource('/home-insta-nj-misty', 'HomeInstaNjMistyController');
+Route::resource('/home-insta-lucednj', 'HomeInstaLucednjController');
