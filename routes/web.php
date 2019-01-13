@@ -27,3 +27,5 @@ Route::resource('/vlogs', 'VlogController');
 Route::resource('/lofs', 'LightOfFashionController');
 Route::resource('/home-insta-nj-misty', 'HomeInstaNjMistyController');
 Route::resource('/home-insta-lucednj', 'HomeInstaLucednjController');
+Route::resource('/less-is-more', 'LessIsMoreController');
+Route::resource('/luxury-scarves', 'LuxuryScarveController');

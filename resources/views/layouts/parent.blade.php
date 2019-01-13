@@ -175,8 +175,8 @@
                     <ul class="treeview-menu">
                         <li><a href="/signature-collection-page"><i class="fa fa-circle-o text-fuchsia"></i> Signature
                                 Collection Page</a></li>
-                        <li><a href="/"><i class="fa fa-circle-o text-light-blue"></i> Less is More</a></li>
-                        <li><a href="/"><i class="fa fa-circle-o text-red"></i> Luxury Scarves</a></li>
+                        <li><a href="/less-is-more"><i class="fa fa-circle-o text-light-blue"></i> Less is More</a></li>
+                        <li><a href="/luxury-scarves"><i class="fa fa-circle-o text-red"></i> Luxury Scarves</a></li>
                     </ul>
                 </li>
 
