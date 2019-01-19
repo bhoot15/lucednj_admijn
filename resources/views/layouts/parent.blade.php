@@ -147,12 +147,13 @@
                         <li class="active"><a href="/lofs"><i class="fa fa-circle-o text-white"></i> Light of
                                 Fashion</a>
                         </li>
-                        <li class="active"><a href="/home-insta-lucednj"><i class="fa fa-circle-o text-yellow"></i> Instagram @lucednj</a>
+                        <li class="active"><a href="/home-insta-lucednj"><i class="fa fa-circle-o text-yellow"></i>
+                                Instagram @lucednj</a>
                         </li>
                     </ul>
                 </li>
 
-                <li class="treeview menu-open">
+                <li class="active treeview menu-open">
                     <a href="#">
                         <i class="fa fa-th"></i> <span>NJ's LookBook</span>
                         <span class="pull-right-container">
@@ -165,7 +166,7 @@
                     </ul>
                 </li>
 
-                <li class="treeview menu-open">
+                <li class="active treeview menu-open">
                     <a href="#">
                         <i class="fa fa-book"></i> <span>Signature Collection</span>
                         <span class="pull-right-container">
@@ -186,8 +187,8 @@
                 <li><a href="/shop-my-look"><i class="fa fa-circle-o text-aqua"></i> <span>Shop My Look</span></a></li>
                 <li><a href="#"><i class="fa fa-circle-o text-green"></i> <span>Contacts</span></a></li>
                 <li><a href="/work-with-us"><i class="fa fa-circle-o text-gray"></i> <span>Work With Us</span></a></li>
-                <li><a href="#"><i class="fa fa-image text-blue"></i> <span>Images</span></a></li>
-                <li><a href="#"><i class="fa fa-upload text-white"></i> <span>Upload Image</span></a></li>
+                <li><a href="/images"><i class="fa fa-image text-blue"></i> <span>Images</span></a></li>
+                <li><a href="http://admin.lucednj.com/uploads" target="_blank"><i class="fa fa-upload text-white"></i> <span>Upload Image</span></a></li>
 
             </ul>
         </section>

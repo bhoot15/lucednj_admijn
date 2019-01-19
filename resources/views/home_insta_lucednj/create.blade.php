@@ -23,18 +23,17 @@
                         </div>
                         <!-- /.box-header -->
                         <div class="container box-body table-responsive no-padding">
-                            <form role="form" action="/home-insta-lucednj/{{ $sc->id}}" method="post">
-                                {{ method_field('PUT') }}
+                            <form role="form" action="/home-insta-lucednj" method="post">
                                 {{csrf_field()}}
                                 <input type="hidden" name="id" value="">
                                 <div class="form-group">
                                     <label for="name">Name</label>
-                                    <textarea name="name" class="form-control">{{$sc->name}}</textarea>
+                                    <textarea name="name" class="form-control"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="insta_content">Instagram URL</label>
                                     <textarea name="insta_content"
-                                              class="form-control">{{$sc->insta_content}}</textarea>
+                                              class="form-control"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <input type="submit" value="Update" class="btn btn-success pull-right">

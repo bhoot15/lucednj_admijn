@@ -19,7 +19,7 @@ class HomeInstaLucednjController extends Controller
 
     public function create()
     {
-        //return view('home_insta_lucednj.about_us');
+        return view('home_insta_lucednj.create');
     }
 
     public function store(Request $request)

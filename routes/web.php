@@ -30,3 +30,4 @@ Route::resource('/home-insta-lucednj', 'HomeInstaLucednjController');
 Route::resource('/less-is-more', 'LessIsMoreController');
 Route::resource('/luxury-scarves', 'LuxuryScarveController');
 Route::resource('/shop-my-look', 'ShopMyLookController');
+Route::resource('/images', 'ImageController');
