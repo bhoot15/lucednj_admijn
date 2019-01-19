@@ -23,7 +23,7 @@
                         </div>
                         <!-- /.box-header -->
                         <div class="container box-body table-responsive no-padding">
-                            <form action="/luxury-scarves/{{ $sc->id}}" method="POST">
+                            <form action="/less-is-more/{{ $sc->id}}" method="POST">
                                 <div class="box-body">
                                     {{ method_field('PUT') }}
                                     {{csrf_field()}}

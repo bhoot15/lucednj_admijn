@@ -31,8 +31,8 @@
                                     <textarea name="title" class="form-control"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <label for="name">Title</label>
-                                    <textarea name="title" class="form-control"></textarea>
+                                    <label for="image_url">Image URL</label>
+                                    <textarea name="image_url" class="form-control"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="author">Author</label>
