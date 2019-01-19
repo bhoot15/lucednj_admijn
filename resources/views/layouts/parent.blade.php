@@ -183,7 +183,7 @@
                 <li class="header">Others</li>
                 <li><a href="#"><i class="fa fa-circle-o text-red"></i> <span>Lifestyles</span></a></li>
                 <li><a href="/about-us"><i class="fa fa-circle-o text-yellow"></i> <span>About Us</span></a></li>
-                <li><a href="#"><i class="fa fa-circle-o text-aqua"></i> <span>Shop My Look</span></a></li>
+                <li><a href="/shop-my-look"><i class="fa fa-circle-o text-aqua"></i> <span>Shop My Look</span></a></li>
                 <li><a href="#"><i class="fa fa-circle-o text-green"></i> <span>Contacts</span></a></li>
                 <li><a href="/work-with-us"><i class="fa fa-circle-o text-gray"></i> <span>Work With Us</span></a></li>
                 <li><a href="#"><i class="fa fa-image text-blue"></i> <span>Images</span></a></li>
