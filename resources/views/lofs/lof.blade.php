@@ -30,20 +30,18 @@
                         <div class="box-body table-responsive no-padding">
                             <table class="table table-hover">
                                 <tr>
-                                    <th>ID</th>
-                                    <th>Name</th>
-                                    <th>Image Type</th>
                                     <th>Image</th>
+                                    <th>Title</th>
+                                    <th>Description</th>
                                     <th>Status</th>
                                     <th>Edit</th>
                                 </tr>
                                 @foreach($scs as $sc)
                                     <tr>
-                                        <td>{{$sc->id}}</td>
-                                        <td>{{$sc->name}}</td>
-                                        <td>{{$sc->image_type}}</td>
                                         <td><img src="{{$sc->image_url}}" class="img-thumbnail" height="200"
                                                  width="200"></td>
+                                        <td>{{$sc->name}}</td>
+                                        <td>{{$sc->description}}</td>
                                         <td><span class="label label-success">Active</span></td>
                                         <td>
                                             <a href="/lofs/{{$sc->id}}/edit"><i

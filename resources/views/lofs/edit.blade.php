@@ -29,17 +29,16 @@
                                     {{ csrf_field() }}
                                     <input type="hidden" name="id" value="{{ $sc->id }}">
                                     <div class="form-group">
-                                        <label for="name">Image Name</label>
+                                        <label for="name">Title</label>
                                         <textarea name="name" class="form-control">{{$sc->name}}</textarea>
                                     </div>
+
                                     <div class="form-group">
-                                        <label for="image_type">Image Type</label>
-                                        <select class="form-control" name="image_type">
-                                            <option value="It Fixes">It Fixes</option>
-                                            <option value="It Influences">It Influences</option>
-                                            <option value="It Orients">It Orients</option>
-                                        </select>
+                                        <label for="description">Description</label>
+                                        <textarea name="description"
+                                                  class="form-control">{{$sc->description}}</textarea>
                                     </div>
+
                                     <div class="form-group">
                                         <label for="image_url">Image Url</label>
                                         <textarea name="image_url"

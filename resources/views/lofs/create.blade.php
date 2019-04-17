@@ -27,16 +27,12 @@
                                 {{csrf_field()}}
                                 <input type="hidden" name="id" value="">
                                 <div class="form-group">
-                                    <label for="name">Image Name</label>
+                                    <label for="name">Title</label>
                                     <textarea name="name" class="form-control"></textarea>
                                 </div>
                                 <div class="form-group">
-                                    <label for="image_type">Image Type</label>
-                                    <select class="form-control" name="image_type">
-                                        <option value="It Fixes">It Fixes</option>
-                                        <option value="It Influences">It Influences</option>
-                                        <option value="It Orients">It Orients</option>
-                                    </select>
+                                    <label for="name">Description</label>
+                                    <textarea name="description" class="form-control"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="image_url">Image Url</label>

@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class LightOfFashion extends Model
 {
     protected $table = "light_of_fashions";
-    protected $fillable = ['name', 'image_url', 'image_type'];
+    protected $fillable = ['name', 'image_url', 'description'];
 
     public function setNameAttribute($value)
     {
@@ -17,8 +17,8 @@ class LightOfFashion extends Model
     {
         $this->attributes['image_url'] = ($value);
     }
-    public function setImageTypeAttribute($value)
+    public function setDescriptionAttribute($value)
     {
-        $this->attributes['image_type'] = ($value);
+        $this->attributes['description'] = ($value);
     }
 }
